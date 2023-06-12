@@ -1,5 +1,8 @@
 {
-  "name": "test-bundle-vladml",
+  "name": "@vladmilko/test-bundle-vladml",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/vladmilko"
+  },
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
