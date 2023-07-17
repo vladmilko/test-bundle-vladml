@@ -16,6 +16,7 @@ export default defineConfig({
       external: ['react'],
       output: {
         globals: { react: 'React', 'react-hook-form': 'ReactHookForm' },
+        sourcemap: true,
       },
     },
     outDir: 'lib',
