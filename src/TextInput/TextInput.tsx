@@ -1,4 +1,4 @@
-import { useController } from 'react-hook-form';
+import { useController, useForm } from 'react-hook-form';
 
 export interface TextInputProps {
   name: string;
@@ -6,7 +6,8 @@ export interface TextInputProps {
 }
 
 export const TextInput = ({ name, className }: TextInputProps) => {
-  const { field } = useController({ name });
+  const { control } = useForm();
+  const { field } = useController({ name, control });
 
   return (
     <div className={className}>

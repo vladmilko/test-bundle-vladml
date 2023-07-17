@@ -3,12 +3,13 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/vladmilko"
   },
-  "version": "1.2.0",
+  "version": "1.7.0",
   "description": "",
   "main": "lib/index.js",
   "module": "lib/index.mjs",
   "files": [
-    "lib"
+    "lib",
+    "src"
   ],
   "types": "lib/index.d.ts",
   "scripts": {
@@ -24,11 +25,11 @@
     "vite": "^4.3.9",
     "vite-plugin-dts": "^2.3.0"
   },
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-hook-form": "^7.44.3"
-  },
   "engines": {
     "node": "^14.17.0 || ^16.0.0 || >= 18.0.0"
+  },
+  "peerDependencies": {
+    "react": "^18",
+    "react-hook-form": "^7.44.3"
   }
 }

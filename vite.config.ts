@@ -14,7 +14,9 @@ export default defineConfig({
     },
     rollupOptions: {
       external: ['react'],
-      output: { globals: { react: 'React' } },
+      output: {
+        globals: { react: 'React', 'react-hook-form': 'ReactHookForm' },
+      },
     },
     outDir: 'lib',
   },
