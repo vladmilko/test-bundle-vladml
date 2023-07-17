@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/vladmilko"
   },
-  "version": "1.7.0",
+  "version": "1.8.0",
   "description": "",
   "main": "lib/index.js",
   "module": "lib/index.mjs",
